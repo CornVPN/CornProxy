@@ -1,0 +1,8 @@
+rich>=13.0.0
+pysocks>=1.7.1
+plotext>=5.2.5
+pyfiglet>=0.8.post1
+colorama>=0.4.6
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
