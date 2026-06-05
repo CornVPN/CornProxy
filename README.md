@@ -45,7 +45,7 @@ Client (Browser / App)
 📦 Установка
 
 ```
-git clone https://github.com/yourname/cornproxy.git
+git clone https://github.com/CornVPN/cornproxy.git
 cd cornproxy
 pip install -r requirements.txt
 ```
