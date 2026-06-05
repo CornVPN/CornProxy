@@ -44,10 +44,11 @@ Client (Browser / App)
 
 📦 Установка
 
+```
 git clone https://github.com/yourname/cornproxy.git
 cd cornproxy
 pip install -r requirements.txt
-
+```
 requirements.txt
 
 rich
