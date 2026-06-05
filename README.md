@@ -21,7 +21,7 @@ It provides:
 ---
 
 Architecture
-
+```
 +---------------------------+
 | Client Applications       |
 | (Browser / Apps / Tools)  |
@@ -50,18 +50,18 @@ Architecture
 | Upstream Network          |
 | (Target services)         |
 +---------------------------+
-
+```
 ---
 
 Key Capabilities
 
 Proxy Engine
-
+```
 - HTTP/1.1 proxy request parsing
 - CONNECT tunneling for HTTPS
 - SOCKS4 / SOCKS5 upstream forwarding
 - Direct mode (no upstream dependency)
-
+```
 Proxy Pool System
 
 - File-based proxy ingestion
