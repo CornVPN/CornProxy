@@ -1,10 +1,5 @@
 # 🌽 CornProxy
 
-"Python" (https://img.shields.io/badge/python-3.8%2B-blue)
-"License" (https://img.shields.io/badge/license-MIT-green)
-"Status" (https://img.shields.io/badge/status-experimental-orange)
-"Platform" (https://img.shields.io/badge/platform-cross--platform-lightgrey)
-
 CornProxy — это локальный HTTP/SOCKS proxy-сервер с поддержкой прокси-пула, мониторингом трафика и TUI-интерфейсом.
 
 Проект создан для изучения:
