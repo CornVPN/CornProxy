@@ -1,31 +1,40 @@
-<div align="center">**🌽 CornProxy**
+<div align="center">
 
-High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy pooling
+# 🌽 CornProxy
 
-![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![License](https://img.shields.io/github/license/CornVPN/CornProxy?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/CornVPN/CornProxy?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/CornVPN/CornProxy?style=for-the-badge)
+**High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy pooling**
+<div align="center">
+
+<div align="center">
+
+<a href="https://pay.cloudtips.ru/p/f5d061ac" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important; width: 210px !important;" ></a>
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
+[![License](https://img.shields.io/github/license/CornVPN/CornProxy?style=for-the-badge)](https://github.com/CornVPN/CornProxy/blob/main/LICENSE)
+[![Issues](https://img.shields.io/github/issues/CornVPN/CornProxy?style=for-the-badge)](https://github.com/CornVPN/CornProxy/issues)
 ![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
----
 
-✨ Features
+Lightweight local proxy engine for HTTP and SOCKS traffic with proxy pools, traffic observability, and experimental DPI evasion techniques.
 
-- 🌐 HTTP proxy support
-- 🔒 HTTPS CONNECT tunneling
-- 🔄 Proxy pool with automatic rotation
-- ⚡ SOCKS4 / SOCKS5 support
-- 📊 Real-time traffic monitoring
-- 📈 Terminal dashboard (Rich + Plotext)
-- 📝 CSV logging
-- 🔍 Per-host statistics
-- 🧪 Experimental DPI evasion modes
-- 🎓 Educational and research oriented
+</div>
 
 ---
 
-🏗 Architecture
+### ✨ Features
 
+* 🌐 **HTTP proxy support** & 🔒 **HTTPS CONNECT tunneling**
+* ⚡ **SOCKS4 / SOCKS5 support**
+* 🔄 **Proxy pool** with automatic rotation
+* 📊 **Real-time traffic monitoring** & per-host statistics
+* 📈 **Terminal dashboard** powered by `Rich` + `Plotext`
+* 📝 **CSV logging** for traffic analysis
+* 🧪 **Experimental DPI evasion modes**
+* 🎓 **Educational and research oriented**
+
+---
+
+### 🏗 Architecture
+
+```text
           Client Applications
                   │
                   ▼
@@ -43,105 +52,66 @@ High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy
                   ▼
              Target Server
 
----
-
-🚀 Quick Start
-
-Clone the repository:
-
-git clone https://github.com/CornVPN/CornProxy.git
+```
+### 🚀 Quick Start
+**1. Clone the repository:**
+```bash
+git clone [https://github.com/CornVPN/CornProxy.git](https://github.com/CornVPN/CornProxy.git)
 cd CornProxy
 
-Install dependencies:
-
+```
+**2. Install dependencies:**
+```bash
 pip install -r requirements.txt
 
-Run:
-
+```
+**3. Run the engine:**
+```bash
 python cornproxy.py
 
----
-
-⚙ Modes
-
-Direct Mode
-
-Client → CornProxy → Target
-
-Manual Proxy Mode
-
-Client → CornProxy → Proxy → Target
-
-Proxy Pool Mode
-
-Client → CornProxy → Proxy Pool → Target
-
----
-
-📊 Dashboard
-
-CornProxy provides:
-
-- Upload / Download statistics
-- Active connections
-- Per-host traffic analysis
-- Live speed graph
-- Proxy pool status
-
----
-
-🧪 DPI Modes
-
-Mode| Description
-"off"| Disabled
-"fragment"| Basic packet fragmentation
-"random_case"| Header case randomization
-"noise"| Extra header injection
-
-«DPI features are experimental.»
-
----
-
-🗺 Roadmap
-
-- [x] HTTP proxy support
-- [x] SOCKS4 / SOCKS5 support
-- [x] Proxy pool
-- [x] Traffic statistics
-- [x] TUI dashboard
-- [ ] IPv6 support
-- [ ] YAML configuration
-- [ ] Async architecture
-- [ ] Docker support
-- [ ] PAC file support
-- [ ] Plugin system
-
----
-
-⚠ Limitations
-
-- No UDP support
-- No DNS tunneling
-- Experimental DPI features
-- Free proxies are unreliable
-- Not intended as a VPN replacement
-
----
-
-🤝 Contributing
-
-Contributions, issues and feature requests are welcome.
-
-If you have ideas for improving performance, reliability or proxy handling, feel free to open an issue or submit a pull request.
-
----
-
-📜 License
-
-MIT License
-
----
-
-<div align="center">Made with ❤️ and ☕ by CornVPN
-
+```
+### ⚙ Modes
+ * **Direct Mode:** Client → CornProxy → Target
+ * **Manual Proxy Mode:** Client → CornProxy → Proxy → Target
+ * **Proxy Pool Mode:** Client → CornProxy → Proxy Pool → Target
+### 📊 Dashboard
+The built-in TUI dashboard provides:
+ * Live upload / download speed graphs
+ * Active connections counter
+ * Real-time proxy pool status
+ * Per-host traffic and performance analysis
+### 🧪 DPI Modes
+| Mode | Description |
+|---|---|
+| off | DPI evasion disabled |
+| fragment | Basic TCP packet fragmentation |
+| random_case | HTTP header case randomization |
+| noise | Extra junk header injection |
+> ⚠ **Note:** DPI features are highly experimental and intended for research purposes.
+> 
+### 🗺 Roadmap
+ * [x] HTTP proxy support
+ * [x] SOCKS4 / SOCKS5 support
+ * [x] Proxy pool rotation
+ * [x] Traffic statistics & CSV logging
+ * [x] TUI dashboard
+ * [ ] Async architecture rewrite
+ * [ ] YAML configuration support
+ * [ ] IPv6 support
+ * [ ] Docker deployment
+ * [ ] PAC file support
+ * [ ] Plugin system
+### ⚠ Limitations
+ * No UDP traffic routing
+ * No DNS tunneling/hijacking
+ * Experimental DPI mechanics may not bypass advanced firewalls
+ * Public proxy pools can be unstable
+ * **Not a replacement for a full-scale VPN**
+### 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page if you want to submit a pull request or suggest performance optimizations.
+### 📜 License
+Distributed under the MIT License. See LICENSE for more information.
+<div align="center">
+Made with ❤️ and ☕ by CornVPN
+          
 </div>
