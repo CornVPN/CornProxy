@@ -19,7 +19,7 @@ from collections import defaultdict
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from io import BytesIO
 
-__version__   = "0.2.0-beta"
+__version__   = "0.1.0-beta"
 __codename__  = "Steppe Fox"
 __build_date__ = "2026-06-06"
 
