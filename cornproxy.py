@@ -118,6 +118,13 @@ cert_cache = {}
 background_check_running = False
 
 
+prev_sent = 0
+prev_recv = 0
+last_update = time.time()
+speed_history = []
+start_time = time.time()
+
+
 bridge_pool = []
 bridge_pool_lock = threading.Lock()
 known_bridges_file = "cornproxy_bridges.txt"
