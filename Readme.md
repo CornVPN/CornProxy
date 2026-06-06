@@ -119,7 +119,7 @@ If CornProxy helped you bypass restrictions or optimize your network, feel free 
 | Asset | Network | Address |
 | :--- | :--- | :--- |
 | **USDT** | TRC-20 | `0xe38e6110fc3486568b3c804f6f1bbf67c24b1f61` |
-| **TON** | TON | `ВАШ_АДРЕС_КОШЕЛЬКА` |
+| **TON** | TON | `UQAPN-Xf5AO8wTkoLOjjeu7VdV6mO5jpcKYSidRptS2VkETA` |
 | **BTC** | Bitcoin | `bc1qahzfjpyz22twj3524pwjxa4v9ucu9fdz0sjfma` |
 
 Made with ❤️ and ☕ by CornVPN
