@@ -1670,7 +1670,7 @@ def main():
     global mitm_mode, ca_cert, ca_key, bridge_mode, mtproto_mode, mtproto_secret, mtproto_port
 
     load_config()
-    Console.clear()
+    console.clear()
     ascii_art = pyfiglet.figlet_format("CornProxy", font="slant")
     console.print(ascii_art, style="bold cyan")
     console.print(Panel.fit(
