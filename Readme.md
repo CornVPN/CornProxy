@@ -9,7 +9,6 @@
 
 <a href="https://pay.cloudtips.ru/p/f5d061ac" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important; width: 210px !important;" ></a>
 [![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
-[![License](https://img.shields.io/github/license/CornVPN/CornProxy?style=for-the-badge)](https://github.com/CornVPN/CornProxy/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/CornVPN/CornProxy?style=for-the-badge)](https://github.com/CornVPN/CornProxy/issues)
 ![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
 
