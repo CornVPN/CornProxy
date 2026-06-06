@@ -78,19 +78,19 @@ dpi_mode = "off"
 mitm_mode = False
 bridge_mode = False
 mtproto_mode = False
-mtproto_secret = None       # 16-byte secret for MTProto
-mtproto_port = 8443         # Separate port for MTProto
+mtproto_secret = None       
+mtproto_port = 8443         
 ca_cert = None
 ca_key = None
 cert_cache = {}
 background_check_running = False
 
-# Bridge infrastructure
+
 bridge_pool = []
 bridge_pool_lock = threading.Lock()
 known_bridges_file = "cornproxy_bridges.txt"
 
-# ========== Config file ==========
+
 
 def load_config(path=CONFIG_FILE):
     """Load cornproxy.conf if it exists."""
@@ -236,7 +236,7 @@ def show_regional_advice():
             console.print(f"  {preset['name']}: {preset['description']}")
         console.print("  See REGIONAL_GUIDE.md for details")
 
-# ========== Форматирование и утилиты ==========
+
 def format_bytes(b):
     for unit in ['B', 'KB', 'MB', 'GB']:
         if b < 1024.0:
@@ -298,7 +298,7 @@ def save_log_to_csv():
             writer.writerow(["ALL_TOTAL", total_sent, total_recv, total_sent+total_recv])
     console.print(f"[green]Log saved to {filename}[/green]")
 
-# ========== MITM: сертификаты ==========
+
 def generate_ca_cert():
     ca_cert_path = "cornproxy_ca.pem"
     ca_key_path = "cornproxy_ca.key"
