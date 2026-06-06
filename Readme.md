@@ -112,6 +112,16 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ### 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 <div align="center">
+          ### ☕ Support the Project
+
+If CornProxy helped you bypass restrictions or optimize your network, feel free to support development:
+
+| Asset | Network | Address |
+| :--- | :--- | :--- |
+| **USDT** | TRC-20 | `0xe38e6110fc3486568b3c804f6f1bbf67c24b1f61` |
+| **TON** | TON | `ВАШ_АДРЕС_КОШЕЛЬКА` |
+| **BTC** | Bitcoin | `bc1qahzfjpyz22twj3524pwjxa4v9ucu9fdz0sjfma` |
+
 Made with ❤️ and ☕ by CornVPN
           
 </div>
