@@ -18,9 +18,40 @@ from urllib.parse import urlparse
 from collections import defaultdict
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from io import BytesIO
-console = Console()
 
-__version__   = "0.1.0-beta"
+
+try:
+    from rich.console import Console
+    from rich.table import Table
+    from rich.panel import Panel
+    from rich.layout import Layout
+    from rich.live import Live
+    from rich.align import Align
+    from rich.text import Text
+    from rich import box
+    import plotext as plt
+    import socks
+    import pyfiglet
+    from colorama import init
+    import requests
+    from bs4 import BeautifulSoup
+    from cryptography import x509
+    from cryptography.x509.oid import NameOID
+    from cryptography.hazmat.primitives import hashes, serialization
+    from cryptography.hazmat.primitives.asymmetric import rsa
+    from cryptography.hazmat.backends import default_backend
+    import datetime as dt
+
+    init(autoreset=True)
+
+    console = Console()
+
+except ImportError as e:
+    print(f"Missing library: {e}. Install: pip install rich pysocks plotext pyfiglet colorama requests beautifulsoup4 lxml cryptography")
+    sys.exit(1)
+
+
+__version__   = "0.2.0-beta"
 __codename__  = "Steppe Fox"
 __build_date__ = "2026-06-06"
 
