@@ -56,7 +56,7 @@ Lightweight local proxy engine for HTTP and SOCKS traffic with proxy pools, traf
 ### 🚀 Quick Start
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/CornVPN/CornProxy.git](https://github.com/CornVPN/CornProxy.git)
+git clone https://github.com/CornVPN/CornProxy.git
 cd CornProxy
 
 ```
