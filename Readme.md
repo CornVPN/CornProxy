@@ -1,6 +1,7 @@
 <div align="center">
 
 # 🌽 CornProxy
+![Dashboard Preview](Screenshot_20260606-010718.jpg)
 
 **High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy pooling**
 <div align="center">
