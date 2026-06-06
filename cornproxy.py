@@ -18,6 +18,7 @@ from urllib.parse import urlparse
 from collections import defaultdict
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from io import BytesIO
+console = Console()
 
 __version__   = "0.1.0-beta"
 __codename__  = "Steppe Fox"
@@ -1638,7 +1639,6 @@ def main():
     global mitm_mode, ca_cert, ca_key, bridge_mode, mtproto_mode, mtproto_secret, mtproto_port
 
     load_config()
-
     Console.clear()
     ascii_art = pyfiglet.figlet_format("CornProxy", font="slant")
     console.print(ascii_art, style="bold cyan")
