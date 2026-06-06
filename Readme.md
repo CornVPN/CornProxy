@@ -1,7 +1,9 @@
 <div align="center">
 
 # 🌽 CornProxy
-![Dashboard Preview](Screenshot_20260606-010718.jpg)
+<div align="center">
+  <img src=".github/workflows/Screenshot_20260606-010718.jpg" alt="CornProxy Banner" width="600">
+</div>
 
 **High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy pooling**
 <div align="center">
