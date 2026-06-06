@@ -114,7 +114,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 ### 📜 License
 Distributed under the MIT License. See LICENSE for more information.
 <div align="center">
-          ### ☕ Support the Project
+          ☕ Support the Project
 
 If CornProxy helped you bypass restrictions or optimize your network, feel free to support development:
 
