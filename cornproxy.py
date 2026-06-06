@@ -1639,7 +1639,7 @@ def main():
 
     load_config()
 
-    console.clear()
+    Console.clear()
     ascii_art = pyfiglet.figlet_format("CornProxy", font="slant")
     console.print(ascii_art, style="bold cyan")
     console.print(Panel.fit(
