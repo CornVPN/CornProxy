@@ -1,16 +1,13 @@
-<div align="center">🌽 CornProxy
+<div align="center">**🌽 CornProxy**
 
 High-performance local HTTP/SOCKS proxy engine with traffic monitoring and proxy pooling
 
-<p>"Python" (https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-"License" (https://img.shields.io/github/license/CornVPN/CornProxy?style=for-the-badge)
-"Stars" (https://img.shields.io/github/stars/CornVPN/CornProxy?style=for-the-badge)
-"Issues" (https://img.shields.io/github/issues/CornVPN/CornProxy?style=for-the-badge)
-"Status" (https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
-
-</p>Lightweight local proxy engine for HTTP and SOCKS traffic with proxy pools, traffic observability and experimental DPI evasion techniques.
-
-</div>---
+![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/github/license/CornVPN/CornProxy?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/CornVPN/CornProxy?style=for-the-badge)
+![Issues](https://img.shields.io/github/issues/CornVPN/CornProxy?style=for-the-badge)
+![Status](https://img.shields.io/badge/status-experimental-orange?style=for-the-badge)
+---
 
 ✨ Features
 
