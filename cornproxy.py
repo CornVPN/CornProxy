@@ -18,7 +18,7 @@ from urllib.parse import urlparse
 from collections import defaultdict
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from io import BytesIO
-
+from network_utils import DNSTunnel, create_dual_stack_socket
 
 try:
     from rich.console import Console
